@@ -96,3 +96,5 @@ Gitの読み取りは成功しましたが、GitHub APIの読み取りは `Forbi
 5. 作成ボタン横のメニューでCreate draft pull requestを選択。mainへマージしない。Draftが使えない契約/設定の場合は、代わりに通常PRを勝手に作らず、店舗内で対応を決める。
 
 今後店舗側で必要なのは、型式と最新配置資料の照合、外部リンクの実表示確認、実機検証、画像なし版の公開承認、GitHub契約と成果物範囲の確認です。画像利用許諾がなくても、画像なし版の公開承認と機種情報の確認は必要です。
+
+今回、`gh pr create --draft --base main --head feat/nfc-rare-machine-guide` を実行しましたが、`Post https://api.github.com/graphql: Forbidden` で失敗しました。Draft PR作成は未完了です。開発ブランチへのpush自体は成功しました。上記の手動作成手順を利用してください。

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "name": "絶対衝激",
+    "url": "https://www.p-world.co.jp/machine/database/10290",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 1,
+    "name": "ツインエンジェルPARTY",
+    "url": "https://www.p-world.co.jp/machine/database/9443",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 2,
+    "name": "マジカルハロウィン Trick or Treat!",
+    "url": "https://www.p-world.co.jp/machine/database/9438",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 3,
+    "name": "スカイガールズ ～ゼロノツバサ～",
+    "url": "https://www.p-world.co.jp/machine/database/9093",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 4,
+    "name": "楽園追放",
+    "url": "https://www.p-world.co.jp/machine/database/9433",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 5,
+    "name": "傷物語",
+    "url": "https://www.p-world.co.jp/machine/database/9864",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 6,
+    "name": "ダンまち2",
+    "url": "https://www.p-world.co.jp/machine/database/10033",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 7,
+    "name": "OVERLORD 絶対支配者光臨II",
+    "url": "https://www.p-world.co.jp/machine/database/9792",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 8,
+    "name": "けものフレンズ",
+    "url": "https://www.p-world.co.jp/machine/database/9615",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 9,
+    "name": "パチスロこの素晴らしい世界に祝福を！",
+    "url": "https://www.p-world.co.jp/machine/database/9594",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 10,
+    "name": "新世紀エヴァンゲリオン～シト、新生～ PREMIUM MODEL",
+    "url": "https://www.p-world.co.jp/machine/database/9167",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 11,
+    "name": "PF戦姫絶唱シンフォギア（甘デジ）",
+    "url": "https://www.p-world.co.jp/machine/database/9294",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  },
+  {
+    "id": 12,
+    "name": "PFアクエリオン ALL STARS LIGHTver.",
+    "url": "https://www.p-world.co.jp/machine/database/9210",
+    "curl_exit": 56,
+    "http_code": "000",
+    "error": "curl: (56) CONNECT tunnel failed, response 403",
+    "verified": false
+  }
+]

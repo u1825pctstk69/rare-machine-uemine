@@ -1,0 +1,248 @@
+[
+  {
+    "id": 0,
+    "name": "絶対衝激",
+    "cat": "retro",
+    "desc": "スマスロ「絶対衝激～PLATONIC HEART～」。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 157
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/10290",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 1,
+    "name": "ツインエンジェルPARTY",
+    "cat": "retro",
+    "desc": "ツインエンジェルシリーズのキャラクターたちに、もう一度会いに。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 248
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9443",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 2,
+    "name": "マジカルハロウィン Trick or Treat!",
+    "cat": "retro",
+    "desc": "マジハロの世界を、好きだったあの頃の気分で。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 249
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9438",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 3,
+    "name": "スカイガールズ ～ゼロノツバサ～",
+    "cat": "retro",
+    "desc": "空を舞うスカイガールズ。思い出の作品に触れてみよう。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 250
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9093",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 4,
+    "name": "楽園追放",
+    "cat": "anime",
+    "desc": "作品の世界観を、パチスロでも楽しもう。",
+    "locations": [
+      {
+        "rate": "20円スロット",
+        "num": 297
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9433",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 5,
+    "name": "傷物語",
+    "cat": "anime",
+    "desc": "物語シリーズファンなら、思わず足を止めたくなる1台。",
+    "locations": [
+      {
+        "rate": "20円スロット",
+        "num": 258
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9864",
+    "verification": {
+      "guide": "unverified",
+      "installation": "user-confirmed",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 6,
+    "name": "ダンまち2",
+    "cat": "anime",
+    "desc": "好きだった冒険の世界を、遊技機でも。",
+    "locations": [
+      {
+        "rate": "20円スロット",
+        "num": 291
+      },
+      {
+        "rate": "プラスファイブ",
+        "num": 279
+      },
+      {
+        "rate": "プラスファイブ",
+        "num": 280
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/10033",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 7,
+    "name": "OVERLORD 絶対支配者光臨II",
+    "cat": "anime",
+    "desc": "オーバーロードの世界を、もう一度楽しもう。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 253
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9792",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 8,
+    "name": "けものフレンズ",
+    "cat": "anime",
+    "desc": "個性豊かなフレンズたちの世界をチェック。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 247
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9615",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 9,
+    "name": "パチスロこの素晴らしい世界に祝福を！",
+    "cat": "anime",
+    "desc": "おなじみの仲間たちに会いに行こう。",
+    "locations": [
+      {
+        "rate": "プラスファイブ",
+        "num": 138
+      },
+      {
+        "rate": "プラスファイブ",
+        "num": 284
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9594",
+    "verification": {
+      "guide": "unverified",
+      "installation": "user-confirmed",
+      "name": "user-confirmed"
+    }
+  },
+  {
+    "id": 10,
+    "name": "新世紀エヴァンゲリオン～シト、新生～ PREMIUM MODEL",
+    "cat": "pachi",
+    "desc": "エヴァンゲリオンの世界を、店内のレア台で。設置場所をチェックしてみよう。",
+    "locations": [
+      {
+        "rate": "プラスワン",
+        "num": 129
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9167",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 11,
+    "name": "PF戦姫絶唱シンフォギア（甘デジ）",
+    "cat": "pachi",
+    "desc": "シンフォギアの世界を楽しめる1台。気になったら設置場所へ。",
+    "locations": [
+      {
+        "rate": "プラスワン",
+        "num": 90
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9294",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  },
+  {
+    "id": 12,
+    "name": "PFアクエリオン ALL STARS LIGHTver.",
+    "cat": "pachi",
+    "desc": "アクエリオンの世界に触れてみよう。設置場所と機種ガイドをチェック。",
+    "locations": [
+      {
+        "rate": "プラスワン",
+        "num": 89
+      }
+    ],
+    "url": "https://www.p-world.co.jp/machine/database/9210",
+    "verification": {
+      "guide": "unverified",
+      "installation": "source-html-only",
+      "name": "source-html-only"
+    }
+  }
+]

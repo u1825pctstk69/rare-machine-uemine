@@ -37,3 +37,14 @@ python tests/browser_test.py
 追加・撤去後は13機種固定の要件とテスト期待値も見直してください。台番号変更時は`tests/data.test.cjs`の期待値も店舗資料に基づき更新します。画像URLだけで許諾済みと判定しないでください。`verification`は確認状況の記録です。
 
 公開用ディレクトリは `site/` だけです。GitHub Pagesのブランチ配信は通常ルートか`docs/`を選ぶため、この構成では**承認後に `site/`のみをアップロードするPages Actions構成**を別途設定します。自動公開ワークフローは現在含めていません。
+
+## 独立した画像なし配信用候補
+
+`public-site/` を追加しました。元デザインのCSSと機種情報を維持し、画像参照と確認画像を有効にするコードまで除去した独立版です。再生成は `python scripts/build_public.py`。今後の配信対象は **public-site/だけ**です（上記site/配信の説明よりこの指示を優先）。一般公開は未承認です。
+
+```sh
+node --test tests/data.test.cjs tests/public.test.cjs
+python tests/public_browser_test.py
+```
+
+後者はサーバーを自動起動して終了時に停止します。ChromiumでiPhone/Android相当のエミュレーションを実施し、実機Safari/Chromeや実際のP-WORLD到達を保証しません。Git履歴にある画像の扱い、全機種照合、予定URL・NFC手順は `docs/final-review.md` を参照してください。リポジトリ全体のPublic変更は禁止のままです。

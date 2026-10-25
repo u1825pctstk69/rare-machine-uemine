@@ -23,8 +23,10 @@ try:
    context.route('https://www.p-world.co.jp/**',lambda route:route.fulfill(status=200,body='<title>Navigation test only</title>'))
    page=context.new_page();page.goto(base)
    page.wait_for_function("!document.querySelector('[data-category]').disabled")
+   assert page.locator('#reviewNotice, .notice').count()==0
    for cat in ['retro','anime','pachi']:
     page.locator(f'[data-category="{cat}"]').click()
+    assert page.locator('#reviewNotice, .notice').count()==0
     subset=[m for m in machines if m['cat']==cat]
     assert page.locator('#machineList button').count()==len(subset)
     page.wait_for_function("Array.from(document.querySelectorAll('#machineList img')).every(img => img.complete && img.naturalWidth > 0)")
@@ -32,6 +34,7 @@ try:
      page.locator('#machineList button').nth(i).click()
      page.wait_for_function("!document.querySelector('#photo').hidden && document.querySelector('#photo').naturalWidth > 0")
      assert page.locator('#photo').get_attribute('src')==m['image']
+     assert page.locator('#reviewNotice, .notice').count()==0
      assert page.locator('#name').inner_text()==m['name']
      assert page.locator('#places .row').count()==len(m['locations'])
      for l in m['locations']:

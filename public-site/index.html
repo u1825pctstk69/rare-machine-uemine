@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>上峰店 レア台発見！</title>
+<meta name="referrer" content="no-referrer">
+<script type="module" src="./app.js">
+</script>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<header>
+<small>コトブキプラス上峰店</small>
+<h1>レア台発見！</h1>
+<p>懐かしい1台からアニメ系まで。気になる台を選んで、設置場所と機種ガイドをチェック！</p>
+</header>
+<main>
+<div class="notice" id="reviewNotice">店舗確認用です。機種リンク・設置情報の最終確認と店舗承認が済むまでは一般公開しないでください。画像は権利未確認のため非表示です。</div>
+<p id="loadError" role="alert" hidden>
+</p>
+<section id="home" class="section active">
+<h2>今日は何を楽しむ？</h2>
+<div class="categories">
+<button class="card" data-category="retro">懐かしの1台<small>もう一度会いたい、あの機種</small>
+</button>
+<button class="card" data-category="anime">アニメ系<small>好きな作品から見つけよう</small>
+</button>
+<button class="card" data-category="pachi">パチンコレア台<small>気になるプラスワンパチンコをチェック</small>
+</button>
+</div>
+<button class="btn" data-action="random">おまかせで1台見つける</button>
+</section>
+<section id="list" class="section">
+<h2 id="categoryName">
+</h2>
+<div id="machineList">
+</div>
+<button class="btn gray" data-action="home">ジャンル選択に戻る</button>
+</section>
+<section id="detail" class="section">
+<div class="muted" id="genre">
+</div>
+<h2 id="name">
+</h2>
+<div id="photoPlaceholder" class="detailPlaceholder">機種画像は準備中です</div>
+<p id="description">
+</p>
+<h3>設置台情報</h3>
+<div id="places">
+</div>
+<p class="muted">※設置情報は提供HTMLを基に登録しています。入替・台移動時は更新が必要です。空き状況は店内でご確認ください。</p>
+<a class="btn" target="_blank" rel="noopener noreferrer" id="guide">P-WORLD 機種ガイドを見る ↗</a>
+<p class="muted" id="guideNote">
+</p>
+<button class="btn gray" data-action="list">同じジャンルから探す</button>
+<button class="btn gray" data-action="random">別のレア台を紹介</button>
+<button class="btn gray" data-action="home">最初に戻る</button>
+</section>
+</main>
+<footer>店舗内の案内用途です。表示内容は遊技結果・台の空き状況を保証するものではありません。</footer>
+</div>
+</body>
+</html>

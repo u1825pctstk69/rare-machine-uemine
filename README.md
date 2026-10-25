@@ -1,3 +1,18 @@
+# 現在の正式公開候補：画像あり版
+
+店舗確認により13画像のWeb掲載許可ありとして、`pages-site/`を正式な配信対象に採用しました。承認済みの配色・機種情報・台番号・レートを維持しています。旧履歴整理は中止し、既存Git履歴を保持します。以下に残る画像なし版の説明は過去の開発記録です。
+
+- 再生成：`python scripts/build_pages.py`
+- 登録・画像テスト：`node --test tests/data.test.cjs tests/pages.test.cjs tests/public.test.cjs`
+- スマホ相当のブラウザーテスト：`python tests/pages_browser_test.py`
+- 公開候補のローカル確認：`python -m http.server 8000 --bind 127.0.0.1 --directory pages-site`
+- 最新の確認結果と公開手順：[docs/image-release.md](docs/image-release.md)
+- 配信設定の非稼働テンプレート：`deployment/pages.yml.example`
+
+**Public変更・mainマージ・Pages公開はまだ承認待ちです。テンプレートを稼働させないでください。**
+
+---
+
 # コトブキプラス上峰店 レア台発見！
 
 NFCタグ1個から13機種の案内へ進む静的サイトです。提供された「レア台発見！」HTMLのデザイン・操作を維持しています。**開発・店舗確認段階。一般公開の承認はありません。** リポジトリの可視性・Pages設定は変更しません。
